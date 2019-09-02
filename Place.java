@@ -1,10 +1,5 @@
 package Project5;
 
-//Name: Hirad Tabatabaei
-//Class: ECE 122
-//Instructor: Professor Marzulo
-//Due date: March 5, 2018
-
 public abstract class Place {
 
 	private String name;
