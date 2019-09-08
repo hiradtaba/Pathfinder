@@ -1,4 +1,5 @@
 package Project5;
+
 public class Obstacle extends Place{
 	
 	private double ropeLength;
