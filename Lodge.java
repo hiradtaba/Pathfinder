@@ -6,10 +6,12 @@ public class Lodge extends Accommodation{
 		super(name, x, y, capacity);
 		this.costPerPerson = costPerPerson; 
 	}
+	
 	public double getCostPerPerson()
 	{
 		return costPerPerson;
 	}
+	
 	public boolean leave(Expedition e)
 	{
 		double lodgeCost = e.getPeople()*costPerPerson;
