@@ -5,11 +5,14 @@ public class Accommodation extends Place {
 		super(name, x, y);
 		this.capacity = capacity;
 	}
+	
 	public int getCapacity() {
 		return capacity;
-	}	
+	}
+	
 	public boolean arrive(Expedition e)
 	{
 		return (capacity >= e.getPeople()); 
 	}
+	
 }
